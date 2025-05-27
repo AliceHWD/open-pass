@@ -378,11 +378,11 @@
                     </form>
                 </div>
                 <div class="face signup">
-                    <form action="" method="POST" class="form">
+                    <form action="/open-pass/OpenPass/atualizacoes/create.php" method="POST" class="form">
                         <h2>Cadastre-se</h2>
                         <input type="text" placeholder="Nome Completo:" name="nome">
                         <input type="text" placeholder="Email:" name="email">
-                        <input type="text" placeholder="Telefone:" name="telefone" id="phone">
+                        <input type="text" placeholder="Telefone:" name="numero" id="phone">
                         <input type="text" placeholder="CPF:" name="cpf" id="cpf" maxlength="14">
                         <input type="password" placeholder="Cadastrar Senha:" name="senha">
                         <input type="password" placeholder="Confirmar Senha:" name="confirma_senha">
